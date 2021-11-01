@@ -1,4 +1,4 @@
-import com.dslexample.util.StepsUtil
+import main.groovy.dslexample.util.StepsUtil
 
 String basePath = 'example5'
 
