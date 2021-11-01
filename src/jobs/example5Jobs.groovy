@@ -1,5 +1,3 @@
-import main.groovy.dslexample.util.StepsUtil
-
 String basePath = 'example5'
 
 folder(basePath) {

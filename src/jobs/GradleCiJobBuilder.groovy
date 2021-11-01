@@ -1,4 +1,4 @@
-package main.groovy.dslexample.builder
+
 
 import groovy.transform.builder.Builder
 import groovy.transform.builder.SimpleStrategy

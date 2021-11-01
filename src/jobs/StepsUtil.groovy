@@ -1,5 +1,3 @@
-package main.groovy.dslexample.util
-
 class StepsUtil {
 
     static void proxiedGradle(context, String gradleTasks) {
