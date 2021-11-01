@@ -1,3 +1,5 @@
+import StepsUtil
+
 String basePath = 'example5'
 
 folder(basePath) {
