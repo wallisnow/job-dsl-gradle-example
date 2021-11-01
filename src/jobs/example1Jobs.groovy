@@ -1,3 +1,5 @@
+import utilities.MyUtilities
+
 String basePath = 'example1'
 String repo = 'sheehan/gradle-example'
 
@@ -25,3 +27,7 @@ job("$basePath/gradle-example-deploy") {
         shell 'scp war file; restart...'
     }
 }
+
+def myJob = job('example')
+
+MyUtilities.addMyFeature(myJob)
