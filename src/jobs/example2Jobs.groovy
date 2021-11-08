@@ -1,4 +1,3 @@
-import utilities.MyUtilities
 import groovy.json.JsonSlurper
 
 String basePath = 'example2'
@@ -37,7 +36,3 @@ branches.each { branch ->
         }
     }
 }
-
-def myJob = job('example')
-
-MyUtilities.addMyFeature(myJob)
